@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+    <druid.version>1.0.18</druid.version>
     <spring.version>4.3.6.RELEASE</spring.version>
     <jackson.version>2.8.6</jackson.version>
     <mybatis.version>3.2.8</mybatis.version>
@@ -79,7 +80,12 @@
       <artifactId>mybatis-spring</artifactId>
       <version>${mybatis-spring.version}</version>
     </dependency>
-
+    <!-- connection pool -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>${druid.version}</version>
+    </dependency>
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
