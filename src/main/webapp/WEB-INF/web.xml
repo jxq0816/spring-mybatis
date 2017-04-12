@@ -12,7 +12,7 @@
             classpath:/applicationContext.xml
         </param-value>
     </context-param>
-    <!-- 加入ContextLoaderListener -->
+    <!-- 加入ContextLoaderListener 启动Web容器时，自动装配ApplicationContext的配置信息-->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>

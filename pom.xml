@@ -33,7 +33,7 @@
       <artifactId>spring-webmvc</artifactId>
       <version>${spring.version}</version>
     </dependency>
-
+    <!--为了整合第三方ORM框架-->
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-jpa</artifactId>
